@@ -1,0 +1,6 @@
+com\amadeus\testScripts\PageActions.class
+com\amadeus\airCanadaPages\HomePage.class
+com\amadeus\testScripts\AirCanadaTest.class
+com\amadeus\airCanadaPages\SplitString.class
+com\amadeus\API\RequestAPI.class
+com\amadeus\API\ResponseAPI.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.amadeus.testScripts.AirCanadaTest" duration-ms="206" started-at="2019-08-05T09:35:47Z" finished-at="2019-08-05T09:35:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="206" started-at="2019-08-05T09:35:47Z" finished-at="2019-08-05T09:35:48Z">
+      <class name="com.amadeus.testScripts.AirCanadaTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amadeus.testScripts.AirCanadaTest@3a03464]" name="setup" is-config="true" duration-ms="104" started-at="2019-08-05T15:05:47Z" finished-at="2019-08-05T15:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchAirCanada()[pri:0, instance:com.amadeus.testScripts.AirCanadaTest@3a03464]" name="launchAirCanada" duration-ms="1" started-at="2019-08-05T15:05:48Z" finished-at="2019-08-05T15:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAirCanada -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amadeus.testScripts.AirCanadaTest@3a03464]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-05T15:05:48Z" finished-at="2019-08-05T15:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amadeus.testScripts.AirCanadaTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.amadeus.testScripts.AirCanadaTest -->
+</testng-results>

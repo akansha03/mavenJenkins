@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Check Request API(failed)">
+    <parameter name="Authorization" value="1AAuth eyJ1c2VySWQiOiJXU0FDSUJFIiwib2ZmaWNlSWQiOiJZVUxBQzA4QUEifQ=="/>
+    <parameter name="PNR" value="S3O226"/>
+    <classes>
+      <class name="com.amadeus.APIS.RequestAPI">
+        <methods>
+          <include name="setup"/>
+          <include name="requestTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amadeus.APIS.RequestAPI -->
+    </classes>
+  </test> <!-- Check Request API(failed) -->
+</suite> <!-- Failed suite [Suite] -->
